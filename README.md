@@ -50,4 +50,4 @@ Public URL: NgrokTunnel: "https://12-34-56-78-90.ngrok-free.app" -> "http://loca
 <img width="695" alt="image" src="https://github.com/raadfhaddad/CORS-PoC/assets/13183963/87fc55e3-c01e-4df2-89d1-74fa06c14c86">
 
 
-
+```NOTE: The tool was created with the support of the amazing tool ChatGPT!```
