@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS-PoC</title>
+</head>
+
+<body>
+    <h1>CORS Configuration Test</h1>
+    <button onclick="testCORS()">Test CORS</button>
+    <pre id="result"></pre>
+
+    <script>
+        function testCORS() {
+            let headers = {
+                /*{{headers}}*/ 
+            };
+
+            fetch('{url}', {
+                method: '{method}',
+                headers: headers
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                document.getElementById('result').textContent = `Error: ${error}`;
+            });
+        }
+    </script>
+</body>
+
+</html>
