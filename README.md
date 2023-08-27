@@ -1,5 +1,5 @@
 # CORS-PoC
-CORS-PoC: Python tool to detect CORS misconfigurations, generating PoC and integrating with ngrok for easy validation.
+CORS-PoC: Python tool for bug bounty hunters and penetration testers to detect CORS misconfigurations, generating PoC and integrating with ngrok for easy validation.
 ## Usage/Examples
 The tool comes with three options to choose from {**ngrok,html,test**}
 ```
