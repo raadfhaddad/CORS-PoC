@@ -24,6 +24,7 @@ def test_cors(url,base_domain,method,headers_list,origins_list,ignore_404,verbos
     ]
 
     if origins_list:
+        test_origins = []
         for origin in origins_list:
             test_origins.append(origin)
 
