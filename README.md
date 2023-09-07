@@ -47,7 +47,8 @@ Public URL: NgrokTunnel: "https://12-34-56-78-90.ngrok-free.app" -> "http://loca
 ...
 ```
 ## Demo
-<img width="695" alt="image" src="https://github.com/raadfhaddad/CORS-PoC/assets/13183963/87fc55e3-c01e-4df2-89d1-74fa06c14c86">
+<img width="697" alt="Screenshot 2023-09-07 at 20 47 07" src="https://github.com/raadfhaddad/CORS-PoC/assets/13183963/a10ef1f4-6d96-4035-8a1a-f39a8b1a3b83">
+<img width="764" alt="Screenshot 2023-09-07 at 20 51 45" src="https://github.com/raadfhaddad/CORS-PoC/assets/13183963/da537bbc-bd79-473b-a58d-14e0dfaa6526">
 
 
 ```NOTE: The tool was created with the support of the amazing tool ChatGPT!```
